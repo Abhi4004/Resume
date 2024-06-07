@@ -1,9 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    padding: 20px;
     background-color: #f4f4f4;
     color: #333;
 }
@@ -11,12 +9,13 @@ body {
 header, section {
     background: white;
     padding: 20px;
-    margin-bottom: 10px;
+    margin: 10px;
     border-radius: 8px;
 }
 
-header h1 {
+header h1, header p {
     margin: 0;
+    padding: 0;
 }
 
 h2 {
@@ -31,3 +30,12 @@ ul {
 li {
     margin-bottom: 5px;
 }
+
+article h3 {
+    margin-top: 0;
+}
+
+a {
+    color: #0077cc;
+}
+
