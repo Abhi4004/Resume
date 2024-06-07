@@ -2,15 +2,50 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f0f0f0; /* Light grey background for the page */
+    color: #333333; /* Dark grey text for general readability */
 }
 
-header, section {
+header {
+    background: #0056b3; /* Blue background for the header */
+    color: white; /* White text for contrast */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+p, a {
+    margin: 5px 0;
+}
+
+a {
+    color: #ffffff; /* Ensuring links are also white for visibility */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Optional: adds underline on hover for better interaction feedback */
+}
+
+section {
     background: white;
     padding: 20px;
     margin: 10px;
     border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Adds subtle shadow to sections for depth */
+}
+
+.collapsible h2 {
+    background-color: #009688; /* Teal background for section headers */
+    color: white;
+    cursor: pointer; /* Indicates that the element is clickable */
+    padding: 10px;
+    margin: -20px -20px 20px -20px; /* Expands the header to the edge of the section */
+    border-radius: 8px 8px 0 0; /* Rounds only the top corners */
 }
 
 .content {
@@ -19,6 +54,10 @@ header, section {
     transition: max-height 0.2s ease-out;
 }
 
-h2 {
-    cursor: pointer; /* Indicates the section header is clickable */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    line-height: 1.6; /* Improves readability of list items */
 }
