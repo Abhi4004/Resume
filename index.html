@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>Abhiram Reddy Peddireddy</h1>
-        <p>Email: <a href="mailto:Abhiramreddy2848@gmail.com">Abhiramreddy2848@gmail.com</a> | LinkedIn: <a href="www.linkedin.com/in/abhiramreddyp">Abhiram Reddy</a> | Mobile: +1 (724) 717-5423</p>
+        <p>Email: <a href="mailto:Abhiramreddy2848@gmail.com">Abhiramreddy2848@gmail.com</a> | LinkedIn: <a href="https://www.linkedin.com/in/abhiramreddyp/">Abhiram Reddy</a> | Mobile: +1 (724) 717-5423</p>
         <p>Place: Springfield, MO 65804</p>
     </header>
     <section id="summary">
@@ -19,61 +19,68 @@
             automation workflows, resulting in a 30% reduction in deployment time. Collaborated cross-functionally to design
             and deploy API Gateway infrastructure in EU region, ensuring reliability and scalability.</p>
     </section>
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <ul>
-            <li>Programming Languages: Python</li>
-            <li>Database Management: Oracle</li>
-            <li>Version Control: GIT, SVN</li>
-            <li>Email Client: Microsoft Outlook</li>
-            <li>Containerization: Docker, Kubernetes, Helm charts</li>
-            <li>Network Security: Kong</li>
-            <li>Scripting: Unix, Bash</li>
-            <li>Code Hosting Platforms: GitHub, GitHub Workflows</li>
-            <li>Network Configuration: Network Configuration</li>
-            <li>Infrastructure as Code: Terraform</li>
-            <li>Monitoring: DataDog</li>
-            <li>Collaboration Tools: Confluence, Jira, Service Now</li>
-            <li>Container Registry: AWS ECR</li>
-            <li>Operating Systems: Ubuntu, RHEL, SunOS</li>
-            <li>CI/CD Tools: AWS ECS, ECS standard deploy, AWS Code Deploy</li>
-        </ul>
-    </section>
-    <section id="experience">
-        <h2>Professional Experience</h2>
-        <article>
-            <h3>DevOps Engineer - Flexera</h3>
-            <h4>May 2023 – Present, Chicago, IL</h4>
+    <section class="collapsible">
+        <h2 onclick="toggleSection('skillsContent')">Technical Skills</h2>
+        <div id="skillsContent" class="content">
             <ul>
-                <li>Spearheaded the implementation of GitHub workflows for automated deployments.</li>
-                <li>Enhanced Kubernetes cluster monitoring, leading to improved uptime and resource utilization.</li>
-                <li>Streamlined deployment processes by integrating advanced Terraform configurations, achieving significant improvements in deployment efficiency.</li>
-                <li>Developed Python test scripts integrated into GitHub workflows, enhancing testing automation and release quality.</li>
-                <li>Engineered Bash scripts for tenant configuration modifications, optimizing the deployment process.</li>
-                <li>Implemented rate limits based on customer types to enhance production stability and reduce downtime.</li>
+                <li>Programming Languages: Python</li>
+                <li>Database Management: Oracle</li>
+                <li>Version Control: GIT, SVN</li>
+                <li>Email Client: Microsoft Outlook</li>
+                <li>Containerization: Docker, Kubernetes, Helm charts</li>
+                <li>Network Security: Kong</li>
+                <li>Scripting: Unix, Bash</li>
+                <li>Code Hosting Platforms: GitHub, GitHub Workflows</li>
+                <li>Network Configuration: Network Configuration</li>
+                <li>Infrastructure as Code: Terraform</li>
+                <li>Monitoring: DataDog</li>
+                <li>Collaboration Tools: Confluence, Jira, Service Now</li>
+                <li>Container Registry: AWS ECR</li>
+                <li>Operating Systems: Ubuntu, RHEL, SunOS</li>
+                <li>CI/CD Tools: AWS ECS, ECS standard deploy, AWS Code Deploy</li>
             </ul>
-        </article>
-        <article>
-            <h3>Junior System Administrator - Kaiser Permanente</h3>
-            <h4>May 2022 – March 2023, Seattle, WA</h4>
-            <ul>
-                <li>Optimized performance of critical web and application servers, ensuring seamless member experiences.</li>
-                <li>Updated SSL certificates and managed ODSEE LDAP instances for enhanced security compliance.</li>
-                <li>Collaborated with the load balancing team to update SSL certificates on VIPs, maintaining continuous service delivery.</li>
-                <li>Leveraged SVN, GIT, and Ansible to streamline deployment processes, achieving faster updates.</li>
-            </ul>
-        </article>
+        </div>
     </section>
-    <section id="education">
-        <h2>Education</h2>
-        <article>
-            <h3>Master of Science in Information Technology</h3>
-            <h4>University of The Cumberlands, August 2022 – December 2024</h4>
-        </article>
-        <article>
-            <h3>Master of Business Administration in Management Information Systems</h3>
-            <h4>Indiana University of Pennsylvania, August 2020 - May 2022</h4>
-        </article>
+    <section class="collapsible">
+        <h2 onclick="toggleSection('experienceContent')">Professional Experience</h2>
+        <div id="experienceContent" class="content">
+            <article>
+                <h3>DevOps Engineer - Flexera</h3>
+                <h4>May 2023 – Present, Chicago, IL</h4>
+                <ul>
+                    <li>Spearheaded the implementation of GitHub workflows for automated deployments.</li>
+                    <li>Enhanced Kubernetes cluster monitoring, leading to improved uptime and resource utilization.</li>
+                    <li>Streamlined deployment processes by integrating advanced Terraform configurations, achieving significant improvements in deployment efficiency.</li>
+                    <li>Developed Python test scripts integrated into GitHub workflows, enhancing testing automation and release quality.</li>
+                    <li>Engineered Bash scripts for tenant configuration modifications, optimizing the deployment process.</li>
+                    <li>Implemented rate limits based on customer types to enhance production stability and reduce downtime.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Junior System Administrator - Kaiser Permanente</h3>
+                <h4>May 2022 – March 2023, Seattle, WA</h4>
+                <ul>
+                    <li>Optimized performance of critical web and application servers, ensuring seamless member experiences.</li>
+                    <li>Updated SSL certificates and managed ODSEE LDAP instances for enhanced security compliance.</li>
+                    <li>Collaborated with the load balancing team to update SSL certificates on VIPs, maintaining continuous service delivery.</li>
+                    <li>Leveraged SVN, GIT, and Ansible to streamline deployment processes, achieving faster updates.</li>
+                </ul>
+            </article>
+        </div>
     </section>
+    <section class="collapsible">
+        <h2 onclick="toggleSection('educationContent')">Education</h2>
+        <div id="educationContent" class="content">
+            <article>
+                <h3>Master of Science in Information Technology</h3>
+                <h4>University of The Cumberlands, August 2022 – December 2024</h4>
+            </article>
+            <article>
+                <h3>Master of Business Administration in Management Information Systems</h3>
+                <h4>Indiana University of Pennsylvania, August 2020 - May 2022</h4>
+            </article>
+        </div>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>

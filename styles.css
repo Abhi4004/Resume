@@ -13,29 +13,12 @@ header, section {
     border-radius: 8px;
 }
 
-header h1, header p {
-    margin: 0;
-    padding: 0;
+.content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
 }
 
 h2 {
-    color: #555;
+    cursor: pointer; /* Indicates the section header is clickable */
 }
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin-bottom: 5px;
-}
-
-article h3 {
-    margin-top: 0;
-}
-
-a {
-    color: #0077cc;
-}
-
